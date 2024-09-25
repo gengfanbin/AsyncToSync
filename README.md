@@ -1,5 +1,7 @@
 <p align="center">AsyncToSync</p>
 
+github: https://github.com/gengfanbin/AsyncToSync
+
 ### 什么是javascript的异步传染性
 JavaScript中的异步传染性是一个在编程中常见的现象，它指的是当一个函数内部包含异步操作（如使用Promise、async/await等）时，这种异步特性会传递给调用它的函数，以及调用这些函数的函数，依次传递下去。这可能会导致整个调用链上的函数都需要处理异步操作，从而增加了代码的复杂性和维护难度。
 
